@@ -4,6 +4,7 @@
     <button @click="animateBlock">Animate</button>
   </div>
   <div class="container">
+    <!-- <transition name="para" enter-to-class="" enter-active-class="to"> -->
     <transition name="para">
       <p v-if="pVisible">This para is visible thanks to magic of sound</p>
     </transition>
